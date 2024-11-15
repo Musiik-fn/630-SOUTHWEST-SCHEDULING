@@ -1,0 +1,6 @@
+Airport,2025 Predicted Flights,Model Used
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",375,Naïve Forecast
+"Chicago, IL Chicago Midway International (MDW)",800,"ARIMA(1,1,1)"
+"Dallas, TX Dallas Love Field (DAL)",584,Naïve Forecast
+"Denver, CO Denver International (DEN)",834,Naïve Forecast
+"Las Vegas, NV Harry Reid International (LAS)",771,Naïve Forecast
