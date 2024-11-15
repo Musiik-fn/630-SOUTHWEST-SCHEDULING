@@ -1,0 +1,36 @@
+Origin Airport,Destination Airport,2025 Predicted Avg Departure Delay (Minutes),Model Used
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",CHS,16.01,Linear Regression
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",LAX,32.58,Naïve Forecast
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",LGA,26.64,Naïve Forecast
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",MIA,25.15,Linear Regression
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",OKC,20.17,Naïve Forecast
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",SAN,12.9,Linear Regression
+"Baltimore, MD BaltimoreWashington International Thurgood Marshall (BWI)",SEA,19.75,Naïve Forecast
+"Chicago, IL Chicago Midway International (MDW)",CHS,17.71,Linear Regression
+"Chicago, IL Chicago Midway International (MDW)",DCA,16.69,Linear Regression
+"Chicago, IL Chicago Midway International (MDW)",LAX,23.56,Linear Regression
+"Chicago, IL Chicago Midway International (MDW)",LGA,15.33,Linear Regression
+"Chicago, IL Chicago Midway International (MDW)",MIA,19.41,Naïve Forecast
+"Chicago, IL Chicago Midway International (MDW)",OKC,27.19,Naïve Forecast
+"Chicago, IL Chicago Midway International (MDW)",SAN,21.68,Linear Regression
+"Chicago, IL Chicago Midway International (MDW)",SEA,22.74,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",CHS,15.92,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",DCA,17.59,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",LAX,22.98,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",LGA,20.68,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",MIA,27.04,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",OKC,24.75,Prophet
+"Dallas, TX Dallas Love Field (DAL)",SAN,18.84,Linear Regression
+"Dallas, TX Dallas Love Field (DAL)",SEA,19.76,Linear Regression
+"Denver, CO Denver International (DEN)",CHS,14.9,Naïve Forecast
+"Denver, CO Denver International (DEN)",LAX,23.05,Linear Regression
+"Denver, CO Denver International (DEN)",LGA,32.35,Naïve Forecast
+"Denver, CO Denver International (DEN)",MIA,25.13,Naïve Forecast
+"Denver, CO Denver International (DEN)",OKC,24.25,Linear Regression
+"Denver, CO Denver International (DEN)",SAN,21.75,Naïve Forecast
+"Denver, CO Denver International (DEN)",SEA,22.48,Linear Regression
+"Las Vegas, NV Harry Reid International (LAS)",HNL,15.47,Naïve Forecast
+"Las Vegas, NV Harry Reid International (LAS)",LAX,22.2,Naïve Forecast
+"Las Vegas, NV Harry Reid International (LAS)",OKC,17.39,"ARIMA(1,1,1)"
+"Las Vegas, NV Harry Reid International (LAS)",SAN,15.96,Prophet
+"Las Vegas, NV Harry Reid International (LAS)",SEA,20.54,"ARIMA(1,1,1)"

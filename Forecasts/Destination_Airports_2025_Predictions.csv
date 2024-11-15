@@ -1,0 +1,10 @@
+Destination Airport,2025 Predicted Flights,Model Used
+LAX,750,Naïve Forecast
+OKC,248,Naïve Forecast
+SAN,855,Naïve Forecast
+SEA,347,Naïve Forecast
+LGA,402,Naïve Forecast
+CHS,207,Naïve Forecast
+DCA,309,Naïve Forecast
+HNL,60,Naïve Forecast
+MIA,205,Naïve Forecast
