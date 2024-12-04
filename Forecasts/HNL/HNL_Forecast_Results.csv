@@ -1,121 +1,121 @@
-Year,Model,Predicted,Actual,MAE,RMSE
-2001,Naïve Forecast,0.0,0,0.0,0.0
-2001,Linear Regression,0.0,0,0.0,0.0
-2001,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2001,Exponential Smoothing,,0,,
-2001,Prophet,,0,,
-2002,Naïve Forecast,0.0,0,0.0,0.0
-2002,Linear Regression,0.0,0,0.0,0.0
-2002,"ARIMA(1,1,1)",,0,,
-2002,Exponential Smoothing,0.0,0,0.0,0.0
-2002,Prophet,0.0,0,0.0,0.0
-2003,Naïve Forecast,0.0,0,0.0,0.0
-2003,Linear Regression,0.0,0,0.0,0.0
-2003,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2003,Exponential Smoothing,0.0,0,0.0,0.0
-2003,Prophet,0.0,0,0.0,0.0
-2004,Naïve Forecast,0.0,0,0.0,0.0
-2004,Linear Regression,0.0,0,0.0,0.0
-2004,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2004,Exponential Smoothing,0.0,0,0.0,0.0
-2004,Prophet,0.0,0,0.0,0.0
-2005,Naïve Forecast,0.0,0,0.0,0.0
-2005,Linear Regression,0.0,0,0.0,0.0
-2005,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2005,Exponential Smoothing,0.0,0,0.0,0.0
-2005,Prophet,0.0,0,0.0,0.0
-2006,Naïve Forecast,0.0,0,0.0,0.0
-2006,Linear Regression,0.0,0,0.0,0.0
-2006,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2006,Exponential Smoothing,0.0,0,0.0,0.0
-2006,Prophet,0.0,0,0.0,0.0
-2007,Naïve Forecast,0.0,0,0.0,0.0
-2007,Linear Regression,0.0,0,0.0,0.0
-2007,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2007,Exponential Smoothing,0.0,0,0.0,0.0
-2007,Prophet,0.0,0,0.0,0.0
-2008,Naïve Forecast,0.0,0,0.0,0.0
-2008,Linear Regression,0.0,0,0.0,0.0
-2008,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2008,Exponential Smoothing,0.0,0,0.0,0.0
-2008,Prophet,0.0,0,0.0,0.0
-2009,Naïve Forecast,0.0,0,0.0,0.0
-2009,Linear Regression,0.0,0,0.0,0.0
-2009,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2009,Exponential Smoothing,0.0,0,0.0,0.0
-2009,Prophet,0.0,0,0.0,0.0
-2010,Naïve Forecast,0.0,0,0.0,0.0
-2010,Linear Regression,0.0,0,0.0,0.0
-2010,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2010,Exponential Smoothing,0.0,0,0.0,0.0
-2010,Prophet,0.0,0,0.0,0.0
-2011,Naïve Forecast,0.0,0,0.0,0.0
-2011,Linear Regression,0.0,0,0.0,0.0
-2011,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2011,Exponential Smoothing,0.0,0,0.0,0.0
-2011,Prophet,0.0,0,0.0,0.0
-2012,Naïve Forecast,0.0,0,0.0,0.0
-2012,Linear Regression,0.0,0,0.0,0.0
-2012,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2012,Exponential Smoothing,0.0,0,0.0,0.0
-2012,Prophet,0.0,0,0.0,0.0
-2013,Naïve Forecast,0.0,0,0.0,0.0
-2013,Linear Regression,0.0,0,0.0,0.0
-2013,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2013,Exponential Smoothing,0.0,0,0.0,0.0
-2013,Prophet,0.0,0,0.0,0.0
-2014,Naïve Forecast,0.0,0,0.0,0.0
-2014,Linear Regression,0.0,0,0.0,0.0
-2014,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2014,Exponential Smoothing,0.0,0,0.0,0.0
-2014,Prophet,0.0,0,0.0,0.0
-2015,Naïve Forecast,0.0,0,0.0,0.0
-2015,Linear Regression,0.0,0,0.0,0.0
-2015,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2015,Exponential Smoothing,0.0,0,0.0,0.0
-2015,Prophet,0.0,0,0.0,0.0
-2016,Naïve Forecast,0.0,0,0.0,0.0
-2016,Linear Regression,0.0,0,0.0,0.0
-2016,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2016,Exponential Smoothing,0.0,0,0.0,0.0
-2016,Prophet,0.0,0,0.0,0.0
-2017,Naïve Forecast,0.0,0,0.0,0.0
-2017,Linear Regression,0.0,0,0.0,0.0
-2017,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2017,Exponential Smoothing,0.0,0,0.0,0.0
-2017,Prophet,0.0,0,0.0,0.0
-2018,Naïve Forecast,0.0,0,0.0,0.0
-2018,Linear Regression,0.0,0,0.0,0.0
-2018,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2018,Exponential Smoothing,0.0,0,0.0,0.0
-2018,Prophet,0.0,0,0.0,0.0
-2019,Naïve Forecast,0.0,0,0.0,0.0
-2019,Linear Regression,0.0,0,0.0,0.0
-2019,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2019,Exponential Smoothing,0.0,0,0.0,0.0
-2019,Prophet,0.0,0,0.0,0.0
-2020,Naïve Forecast,0.0,0,0.0,0.0
-2020,Linear Regression,0.0,0,0.0,0.0
-2020,"ARIMA(1,1,1)",0.0,0,0.0,0.0
-2020,Exponential Smoothing,0.0,0,0.0,0.0
-2020,Prophet,0.0,0,0.0,0.0
-2021,Naïve Forecast,0.0,50,50.0,50.0
-2021,Linear Regression,0.0,50,50.0,50.0
-2021,"ARIMA(1,1,1)",0.0,50,50.0,50.0
-2021,Exponential Smoothing,0.0,50,50.0,50.0
-2021,Prophet,0.0,50,50.0,50.0
-2022,Naïve Forecast,50.0,56,6.0,6.0
-2022,Linear Regression,9.090909090909236,56,46.909090909090764,46.909090909090764
-2022,"ARIMA(1,1,1)",50.00000000000001,56,5.999999999999993,5.999999999999993
-2022,Exponential Smoothing,9.090910358770028,56,46.90908964122997,46.90908964122997
-2022,Prophet,9.08544717587395,56,46.91455282412605,46.91455282412605
-2023,Naïve Forecast,56.0,60,4.0,4.0
-2023,Linear Regression,17.841897233201507,60,42.15810276679849,42.15810276679849
-2023,"ARIMA(1,1,1)",56.36296885906468,60,3.6370311409353206,3.6370311409353206
-2023,Exponential Smoothing,76.40531352512282,60,16.40531352512282,16.40531352512282
-2023,Prophet,17.81876930576824,60,42.18123069423176,42.18123069423176
-2024,Naïve Forecast,60.0,60,0.0,0.0
-2024,Linear Regression,25.97101449275351,60,34.02898550724649,34.02898550724649
-2024,"ARIMA(1,1,1)",61.983774127980325,60,1.9837741279803254,1.9837741279803254
-2024,Exponential Smoothing,62.60728010570818,60,2.6072801057081776,2.6072801057081776
-2024,Prophet,25.9871355709828,60,34.0128644290172,34.0128644290172
+Year,Model,Predicted,Actual,RMSE
+2001,Naïve Forecast,0.0,0,0.0
+2001,Linear Regression,0.0,0,0.0
+2001,"ARIMA(1,1,1)",0.0,0,0.0
+2001,Exponential Smoothing,,0,
+2001,Prophet,,0,
+2002,Naïve Forecast,0.0,0,0.0
+2002,Linear Regression,0.0,0,0.0
+2002,"ARIMA(1,1,1)",,0,
+2002,Exponential Smoothing,0.0,0,0.0
+2002,Prophet,0.0,0,0.0
+2003,Naïve Forecast,0.0,0,0.0
+2003,Linear Regression,0.0,0,0.0
+2003,"ARIMA(1,1,1)",0.0,0,0.0
+2003,Exponential Smoothing,0.0,0,0.0
+2003,Prophet,0.0,0,0.0
+2004,Naïve Forecast,0.0,0,0.0
+2004,Linear Regression,0.0,0,0.0
+2004,"ARIMA(1,1,1)",0.0,0,0.0
+2004,Exponential Smoothing,0.0,0,0.0
+2004,Prophet,0.0,0,0.0
+2005,Naïve Forecast,0.0,0,0.0
+2005,Linear Regression,0.0,0,0.0
+2005,"ARIMA(1,1,1)",0.0,0,0.0
+2005,Exponential Smoothing,0.0,0,0.0
+2005,Prophet,0.0,0,0.0
+2006,Naïve Forecast,0.0,0,0.0
+2006,Linear Regression,0.0,0,0.0
+2006,"ARIMA(1,1,1)",0.0,0,0.0
+2006,Exponential Smoothing,0.0,0,0.0
+2006,Prophet,0.0,0,0.0
+2007,Naïve Forecast,0.0,0,0.0
+2007,Linear Regression,0.0,0,0.0
+2007,"ARIMA(1,1,1)",0.0,0,0.0
+2007,Exponential Smoothing,0.0,0,0.0
+2007,Prophet,0.0,0,0.0
+2008,Naïve Forecast,0.0,0,0.0
+2008,Linear Regression,0.0,0,0.0
+2008,"ARIMA(1,1,1)",0.0,0,0.0
+2008,Exponential Smoothing,0.0,0,0.0
+2008,Prophet,0.0,0,0.0
+2009,Naïve Forecast,0.0,0,0.0
+2009,Linear Regression,0.0,0,0.0
+2009,"ARIMA(1,1,1)",0.0,0,0.0
+2009,Exponential Smoothing,0.0,0,0.0
+2009,Prophet,0.0,0,0.0
+2010,Naïve Forecast,0.0,0,0.0
+2010,Linear Regression,0.0,0,0.0
+2010,"ARIMA(1,1,1)",0.0,0,0.0
+2010,Exponential Smoothing,0.0,0,0.0
+2010,Prophet,0.0,0,0.0
+2011,Naïve Forecast,0.0,0,0.0
+2011,Linear Regression,0.0,0,0.0
+2011,"ARIMA(1,1,1)",0.0,0,0.0
+2011,Exponential Smoothing,0.0,0,0.0
+2011,Prophet,0.0,0,0.0
+2012,Naïve Forecast,0.0,0,0.0
+2012,Linear Regression,0.0,0,0.0
+2012,"ARIMA(1,1,1)",0.0,0,0.0
+2012,Exponential Smoothing,0.0,0,0.0
+2012,Prophet,0.0,0,0.0
+2013,Naïve Forecast,0.0,0,0.0
+2013,Linear Regression,0.0,0,0.0
+2013,"ARIMA(1,1,1)",0.0,0,0.0
+2013,Exponential Smoothing,0.0,0,0.0
+2013,Prophet,0.0,0,0.0
+2014,Naïve Forecast,0.0,0,0.0
+2014,Linear Regression,0.0,0,0.0
+2014,"ARIMA(1,1,1)",0.0,0,0.0
+2014,Exponential Smoothing,0.0,0,0.0
+2014,Prophet,0.0,0,0.0
+2015,Naïve Forecast,0.0,0,0.0
+2015,Linear Regression,0.0,0,0.0
+2015,"ARIMA(1,1,1)",0.0,0,0.0
+2015,Exponential Smoothing,0.0,0,0.0
+2015,Prophet,0.0,0,0.0
+2016,Naïve Forecast,0.0,0,0.0
+2016,Linear Regression,0.0,0,0.0
+2016,"ARIMA(1,1,1)",0.0,0,0.0
+2016,Exponential Smoothing,0.0,0,0.0
+2016,Prophet,0.0,0,0.0
+2017,Naïve Forecast,0.0,0,0.0
+2017,Linear Regression,0.0,0,0.0
+2017,"ARIMA(1,1,1)",0.0,0,0.0
+2017,Exponential Smoothing,0.0,0,0.0
+2017,Prophet,0.0,0,0.0
+2018,Naïve Forecast,0.0,0,0.0
+2018,Linear Regression,0.0,0,0.0
+2018,"ARIMA(1,1,1)",0.0,0,0.0
+2018,Exponential Smoothing,0.0,0,0.0
+2018,Prophet,0.0,0,0.0
+2019,Naïve Forecast,0.0,0,0.0
+2019,Linear Regression,0.0,0,0.0
+2019,"ARIMA(1,1,1)",0.0,0,0.0
+2019,Exponential Smoothing,0.0,0,0.0
+2019,Prophet,0.0,0,0.0
+2020,Naïve Forecast,0.0,0,0.0
+2020,Linear Regression,0.0,0,0.0
+2020,"ARIMA(1,1,1)",0.0,0,0.0
+2020,Exponential Smoothing,0.0,0,0.0
+2020,Prophet,0.0,0,0.0
+2021,Naïve Forecast,0.0,50,50.0
+2021,Linear Regression,0.0,50,50.0
+2021,"ARIMA(1,1,1)",0.0,50,50.0
+2021,Exponential Smoothing,0.0,50,50.0
+2021,Prophet,0.0,50,50.0
+2022,Naïve Forecast,50.0,56,6.0
+2022,Linear Regression,9.090909090909236,56,46.909090909090764
+2022,"ARIMA(1,1,1)",50.00000000000001,56,5.999999999999993
+2022,Exponential Smoothing,9.090908835691625,56,46.90909116430838
+2022,Prophet,9.085447175862264,56,46.914552824137736
+2023,Naïve Forecast,56.0,60,4.0
+2023,Linear Regression,17.841897233201507,60,42.15810276679849
+2023,"ARIMA(1,1,1)",56.36296803843302,60,3.637031961566983
+2023,Exponential Smoothing,76.40531352512366,60,16.40531352512366
+2023,Prophet,17.818769305731173,60,42.18123069426883
+2024,Naïve Forecast,60.0,60,0.0
+2024,Linear Regression,25.97101449275351,60,34.02898550724649
+2024,"ARIMA(1,1,1)",61.983773688382804,60,1.9837736883828043
+2024,Exponential Smoothing,62.608729585685325,60,2.6087295856853245
+2024,Prophet,25.987135570982876,60,34.01286442901713

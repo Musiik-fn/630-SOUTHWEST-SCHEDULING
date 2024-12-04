@@ -188,7 +188,6 @@ def initialize_results_dataframe():
         'Model': [],
         'Predicted': [],
         'Actual': [],
-        'MAE': [],
         'RMSE': []
     })
     return results
@@ -308,7 +307,7 @@ def forecast_prophet(train_data, test_year):
 
 def compute_performance_metrics(results_clean):
     """
-    Computes MAE, RMSE, R2, and Adjusted R2 for each model.
+    Computes , RMSE, R2, and Adjusted R2 for each model.
 
     Parameters:
         results_clean (pd.DataFrame): Cleaned results DataFrame after dropping NaNs.
@@ -317,7 +316,6 @@ def compute_performance_metrics(results_clean):
         pd.DataFrame: Performance summary with metrics.
     """
     performance_summary = results_clean.groupby('Model').agg({
-        'MAE': 'mean',
         'RMSE': 'mean'
     }).reset_index()
 
@@ -376,14 +374,12 @@ def walk_forward_validation(flights_per_year):
         # 1. Naïve Forecast
         # ---------------------------
         predicted_naive = forecast_naive(train_data)
-        mae_naive = mean_absolute_error([actual_flights], [predicted_naive])
         rmse_naive = mean_squared_error([actual_flights], [predicted_naive], squared=False)
         results_list.append({
             'Year': test_year,
             'Model': 'Naïve Forecast',
             'Predicted': predicted_naive,
             'Actual': actual_flights,
-            'MAE': mae_naive,
             'RMSE': rmse_naive
         })
 
@@ -391,14 +387,12 @@ def walk_forward_validation(flights_per_year):
         # 2. Linear Regression
         # ---------------------------
         predicted_lr = forecast_linear_regression(train_data, test_year)
-        mae_lr = mean_absolute_error([actual_flights], [predicted_lr])
         rmse_lr = mean_squared_error([actual_flights], [predicted_lr], squared=False)
         results_list.append({
             'Year': test_year,
             'Model': 'Linear Regression',
             'Predicted': predicted_lr,
             'Actual': actual_flights,
-            'MAE': mae_lr,
             'RMSE': rmse_lr
         })
 
@@ -407,17 +401,14 @@ def walk_forward_validation(flights_per_year):
         # ---------------------------
         predicted_arima = forecast_arima(train_data, test_year)
         if not np.isnan(predicted_arima):
-            mae_arima = mean_absolute_error([actual_flights], [predicted_arima])
             rmse_arima = mean_squared_error([actual_flights], [predicted_arima], squared=False)
         else:
-            mae_arima = np.nan
             rmse_arima = np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'ARIMA(1,1,1)',
             'Predicted': predicted_arima,
             'Actual': actual_flights,
-            'MAE': mae_arima,
             'RMSE': rmse_arima
         })
 
@@ -426,17 +417,14 @@ def walk_forward_validation(flights_per_year):
         # ---------------------------
         predicted_hw = forecast_exponential_smoothing(train_data, test_year)
         if not np.isnan(predicted_hw):
-            mae_hw = mean_absolute_error([actual_flights], [predicted_hw])
             rmse_hw = mean_squared_error([actual_flights], [predicted_hw], squared=False)
         else:
-            mae_hw = np.nan
             rmse_hw = np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'Exponential Smoothing',
             'Predicted': predicted_hw,
             'Actual': actual_flights,
-            'MAE': mae_hw,
             'RMSE': rmse_hw
         })
 
@@ -445,17 +433,14 @@ def walk_forward_validation(flights_per_year):
         # ---------------------------
         predicted_prophet = forecast_prophet(train_data, test_year)
         if not np.isnan(predicted_prophet):
-            mae_prophet = mean_absolute_error([actual_flights], [predicted_prophet])
             rmse_prophet = mean_squared_error([actual_flights], [predicted_prophet], squared=False)
         else:
-            mae_prophet = np.nan
             rmse_prophet = np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'Prophet',
             'Predicted': predicted_prophet,
             'Actual': actual_flights,
-            'MAE': mae_prophet,
             'RMSE': rmse_prophet
         })
 
@@ -491,14 +476,12 @@ def walk_forward_validation_delays(flights_per_year):
         # 1. Naïve Forecast
         # ---------------------------
         predicted_naive = forecast_departure_delay(train_data, test_year, model_type='Naïve')
-        mae_naive = mean_absolute_error([actual_delay], [predicted_naive]) if not np.isnan(predicted_naive) else np.nan
         rmse_naive = mean_squared_error([actual_delay], [predicted_naive], squared=False) if not np.isnan(predicted_naive) else np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'Naïve Forecast',
             'Predicted': predicted_naive,
             'Actual': actual_delay,
-            'MAE': mae_naive,
             'RMSE': rmse_naive
         })
 
@@ -506,14 +489,12 @@ def walk_forward_validation_delays(flights_per_year):
         # 2. Linear Regression
         # ---------------------------
         predicted_lr = forecast_departure_delay(train_data, test_year, model_type='Linear Regression')
-        mae_lr = mean_absolute_error([actual_delay], [predicted_lr]) if not np.isnan(predicted_lr) else np.nan
         rmse_lr = mean_squared_error([actual_delay], [predicted_lr], squared=False) if not np.isnan(predicted_lr) else np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'Linear Regression',
             'Predicted': predicted_lr,
             'Actual': actual_delay,
-            'MAE': mae_lr,
             'RMSE': rmse_lr
         })
 
@@ -522,17 +503,14 @@ def walk_forward_validation_delays(flights_per_year):
         # ---------------------------
         predicted_arima = forecast_departure_delay(train_data, test_year, model_type='ARIMA')
         if not np.isnan(predicted_arima):
-            mae_arima = mean_absolute_error([actual_delay], [predicted_arima])
             rmse_arima = mean_squared_error([actual_delay], [predicted_arima], squared=False)
         else:
-            mae_arima = np.nan
             rmse_arima = np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'ARIMA(1,1,1)',
             'Predicted': predicted_arima,
             'Actual': actual_delay,
-            'MAE': mae_arima,
             'RMSE': rmse_arima
         })
 
@@ -541,17 +519,14 @@ def walk_forward_validation_delays(flights_per_year):
         # ---------------------------
         predicted_hw = forecast_departure_delay(train_data, test_year, model_type='Exponential Smoothing')
         if not np.isnan(predicted_hw):
-            mae_hw = mean_absolute_error([actual_delay], [predicted_hw])
             rmse_hw = mean_squared_error([actual_delay], [predicted_hw], squared=False)
         else:
-            mae_hw = np.nan
             rmse_hw = np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'Exponential Smoothing',
             'Predicted': predicted_hw,
             'Actual': actual_delay,
-            'MAE': mae_hw,
             'RMSE': rmse_hw
         })
 
@@ -560,17 +535,14 @@ def walk_forward_validation_delays(flights_per_year):
         # ---------------------------
         predicted_prophet = forecast_departure_delay(train_data, test_year, model_type='Prophet')
         if not np.isnan(predicted_prophet):
-            mae_prophet = mean_absolute_error([actual_delay], [predicted_prophet])
             rmse_prophet = mean_squared_error([actual_delay], [predicted_prophet], squared=False)
         else:
-            mae_prophet = np.nan
             rmse_prophet = np.nan
         results_list.append({
             'Year': test_year,
             'Model': 'Prophet',
             'Predicted': predicted_prophet,
             'Actual': actual_delay,
-            'MAE': mae_prophet,
             'RMSE': rmse_prophet
         })
 
@@ -632,10 +604,10 @@ def save_forecasts(results_df, output_dir, group_name):
 
 def visualize_performance(performance_summary, group_name, output_dir):
     """
-    Visualizes the performance metrics (MAE, RMSE, R2, Adjusted R2) of all models.
+    Visualizes the performance metrics (, RMSE, R2, Adjusted R2) of all models.
 
     Parameters:
-        performance_summary (pd.DataFrame): Summary DataFrame with average MAE, RMSE, R2, and Adjusted R2 per model.
+        performance_summary (pd.DataFrame): Summary DataFrame with average , RMSE, R2, and Adjusted R2 per model.
         group_name (str): Name of the group (Origin or Destination Airport).
         output_dir (Path): Directory to save the plots.
 
@@ -656,19 +628,6 @@ def visualize_performance(performance_summary, group_name, output_dir):
     plt.savefig(rmse_plot_path)
     plt.close()
     print(f"RMSE plot saved to {rmse_plot_path}")
-
-    # Visualization of MAE
-    plt.figure(figsize=(10,6))
-    sns.barplot(x='Model', y='MAE', data=performance_summary, palette='magma')
-    plt.title(f'Average MAE of Forecasting Models (2001-2024) for {group_name}')
-    plt.xlabel('Forecasting Model')
-    plt.ylabel('Average MAE')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    mae_plot_path = group_output_dir / f'{group_name}_Average_MAE.png'
-    plt.savefig(mae_plot_path)
-    plt.close()
-    print(f"MAE plot saved to {mae_plot_path}")
 
     # Visualization of R2
     plt.figure(figsize=(10,6))
