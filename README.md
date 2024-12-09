@@ -10,3 +10,5 @@ Using publicly available airline data provided by the Bureau of Transportation S
 
 ## Phase III: Prescriptive Analytics
 With the airport supply, demands, and route delays predicted for June 2025, we aim to use these values to formulate and solve a linear integer programming assignment problem. In this problem, the cost is the predicted delay on each route. Given that our total demand exceeds our supply, we cannot exceed the demand for each destination node, but we must assign all flights from each origin node, and finally we must meet a minimum number of flights for each route.
+
+Excel file link: https://github.com/Musiik-fn/630-SOUTHWEST-SCHEDULING/tree/main/Linear%20Programming
