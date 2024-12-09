@@ -1,6 +1,7 @@
 # 630-SOUTHWEST-SCHEDULING
 
-## Project Proposal Southwest's business model is distinct from that of other US airlines because it uses a point-to-point network. Point-to-point transit is a transportation system in which a plane, bus, or train travels directly to a destination, rather than going through a central hub. The concept of this project is to replicate a simplified and small portion of a point-to-point network using Southwest Airline flight data. 
+## Project Proposal 
+Southwest's business model is distinct from that of other US airlines because it uses a point-to-point network. Point-to-point transit is a transportation system in which a plane, bus, or train travels directly to a destination, rather than going through a central hub. The concept of this project is to replicate a simplified and small portion of a point-to-point network using Southwest Airline flight data. 
 
 We will choose 2 distinct sets of nodes, one set of origin nodes and one set of destination nodes. We will look at all the data for a given month. Both the supply and the capacity of the nodes will be predicted using a model such as regression. The objective is to develop a Linear Programming model that optimizes the assignment of flights from these two distinct sets of airports within Southwest Airlines' network. The goal is to minimize total operational delays.
 
