@@ -3,6 +3,8 @@
 -  [Full Report Link](https://github.com/Musiik-fn/630-SOUTHWEST-SCHEDULING/blob/main/630%20Final%20Project%20Report_1%20Signed%20JC.pdf)
 -  [Excel file link](https://github.com/Musiik-fn/630-SOUTHWEST-SCHEDULING/tree/main/Linear%20Programming)
 
+**Project Authors:** Joshua Cabal, Namrata Patil, Krish Viswanadhan-Nair, Denise Becerra
+
 ## Project Proposal 
 Southwest's business model is distinct from that of other US airlines because it uses a point-to-point network. Point-to-point transit is a transportation system in which a plane, bus, or train travels directly to a destination, rather than going through a central hub. The concept of this project is to replicate a simplified and small portion of a point-to-point network using Southwest Airline flight data. 
 
